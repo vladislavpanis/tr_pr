@@ -8,11 +8,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div><span class="A">I am block</span> <span class="A">I am block</span> <span class="A">I am block</span></div>
-
-   <div><br><span class="B">I am inline</span> <span class="B">I am inline</span> <span class="B">I am inline</span> <span class="B">I am inline</span> 
-    <span class="B">I am inline</span></div>
-
-   <div><br><span class="C">I am inline-block</span> <span class="C">I am inline-block</span> <span class="C">I am inline-block</span></div>
+    <h3>Apply relative posititon</h3>
+    <div class="A">
+        <h2>First element</h2>
+        <p class="RP">I am moved left to 50px from my static position</p>
+        <p class="RP">My sizes are following:</p>
+        <p class="L">{ width: 500px; height: 250px; }</p>
+        <p class="RP">My border-radius:</p>
+        <p class="L">{ border-radius 10px; }</p>
+    </div>
+    <div class="B">
+        <h2>Second element</h2>
+        <p class="RP">I am with static position by default</p>
+        <p class="RP">My sizes are following:</p>
+        <p class="L">{ width: 600px; height: 250px; }</p>
+        <p class="RP">My border-radius:</p>
+        <p class="L">{ border-radius 20px; }</p>
+    </div>
+    <h3>Apply absolute position</h3>
+    <div class="C">
+        <h3>I am parent with relative position</h3>
+        <p class="AP">My sizes are following:</p>
+        <p class="L2">{ width: 1000px; height: 200px; }</p>
+        <div class="D">
+            <h3>I am child element with absolute positioning, top and right 10px</h3>
+            <p class="AP">My sizes are following:</p>
+            <p class="L2">{ width: 450px; height: 150px; }</p>
+        </div>
+    </div>
 </body>
 </html>
