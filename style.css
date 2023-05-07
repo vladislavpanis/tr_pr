@@ -1,57 +1,34 @@
 .A {
-    position: relative;
-    left: 50px;
-    margin-left: 50px;
-    width: 497px;
-    height: 247px;
-    border: 3px solid orange;
-    border-radius: 10px;
-    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
 }
 .B {
-    width: 597px;
-    height: 247px;
-    border: 3px solid blue;
-    border-radius: 20px;
-    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: lightgrey;
 }
 .C {
-    position: relative;
-    width: 1000px;
-    height: 200px;
-    border: 3px solid green;
+    float: left;
+    width: 200px;
+    height: 250px;
+    margin-left: 125px;
+    background-color: lightcoral;
 }
 .D {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 450px;
-    height: 150px;
-    border: 2px solid red;
+    float: left;
+    width: 400px;
+    height: 400px;
+    
+    background-color: lightsalmon;
 }
-h2 {
-    margin-bottom: 0px;
-    margin-top: 0px;
+table {
+    width: 100%;
+    height: 280px;
+    border-spacing: 10px;
+    background-color: #e6ffff;
 }
-h3 {
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-p.RP {
-    margin-top: 0px;
-    margin-bottom: 5px;
-    font-size: 20px;
-}
-p.L {
-    font-family: "Lucida Console", monospace;
-    font-size: 20px;
-    margin-top: 5px;
-}
-p.AP {
-    margin-top: 0px;
-    margin-bottom: 5px;
-}
-p.L2 {
-    font-family: "Lucida Console", monospace;
-    margin-top: 5px;
+td {
+    background-color: lightblue;
 }
